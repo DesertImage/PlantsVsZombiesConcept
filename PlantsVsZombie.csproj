@@ -121,6 +121,7 @@
     <Compile Include="Assets\Scripts\PlantsVsZombies\Events\InitInfoEvent.cs" />
     <Compile Include="Assets\Scripts\PlantsVsZombies\Events\MouseUpEvent.cs" />
     <Compile Include="Assets\Scripts\PlantsVsZombies\Events\ObjectPlacedEvent.cs" />
+    <Compile Include="Assets\Scripts\PlantsVsZombies\Events\PlacedEvent.cs" />
     <Compile Include="Assets\Scripts\PlantsVsZombies\Events\ShootEvent.cs" />
     <Compile Include="Assets\Scripts\PlantsVsZombies\Events\SpawnZombieEvent.cs" />
     <Compile Include="Assets\Scripts\PlantsVsZombies\Events\StartDragEvent.cs" />
