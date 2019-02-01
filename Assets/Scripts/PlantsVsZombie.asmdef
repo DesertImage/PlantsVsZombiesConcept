@@ -1,0 +1,12 @@
+{
+    "name": "PlantsVsZombie",
+    "references": [
+        "UniRx",
+        "ThridPartyStuff",
+        "Framework"
+    ],
+    "optionalUnityReferences": [],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false
+}

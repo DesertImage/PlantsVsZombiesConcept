@@ -1,0 +1,11 @@
+{
+    "name": "Framework",
+    "references": [
+        "ThridPartyStuff",
+        "UniRx"
+    ],
+    "optionalUnityReferences": [],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false
+}
