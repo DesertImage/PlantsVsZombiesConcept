@@ -1,6 +1,7 @@
 ﻿using System;
 using DesertImage.Pools;
 using Framework.Timer;
+using UnityEngine;
 
 namespace DesertImage.Managers
 {
@@ -10,7 +11,7 @@ namespace DesertImage.Managers
         
         public void onAwake()
         {
-            _pool.register(new Timer(), 20);
+            _pool.register(new Timer(), 1);
         }
 
         public Timer playAction(Action action, float delay = 1f)
@@ -22,6 +23,11 @@ namespace DesertImage.Managers
             return timer;
         }
 
+        public void returnInstance(Timer instance)
+        {
+            _pool.returnInstance(instance);
+        }
+        
         public void stopTimer(Timer timer)
         {
             timer.stop();

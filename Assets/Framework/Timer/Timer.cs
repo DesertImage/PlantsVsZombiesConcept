@@ -7,7 +7,7 @@ namespace Framework.Timer
     public class Timer : IComponent, ITick, IPoolable
     {
         public float Time { get; private set; }
-        
+
         private float _targetTime;
         private Action _action;
 
@@ -56,6 +56,8 @@ namespace Framework.Timer
         {
             Time = 0f;
 
+            _action = null;
+            
             _targetTime = 0f;
         }
 
@@ -71,7 +73,7 @@ namespace Framework.Timer
             
             _action();
             
-            Stop();
+            returnToPool();
         }
 
         #region POOL STUFF
@@ -88,6 +90,8 @@ namespace Framework.Timer
             Core.Instance.get<ManagerUpdate>().remove(this);
 
             Stop();
+            
+            Core.Instance.get<ManagerTimers>().returnInstance(this);
         }
 
         #endregion

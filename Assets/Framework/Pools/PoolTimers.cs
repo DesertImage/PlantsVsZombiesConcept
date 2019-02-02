@@ -13,11 +13,11 @@ namespace DesertImage.Pools
             return  timer;
         }
 
-        protected override void ReturnInstance(Timer objInstance)
+        protected override void GetStuff(Timer objInstance)
         {
-            base.ReturnInstance(objInstance);
+            base.GetStuff(objInstance);
             
-            objInstance.returnToPool();
+            objInstance.onCreate();
         }
     }
 }
