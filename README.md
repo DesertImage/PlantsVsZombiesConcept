@@ -1,6 +1,6 @@
 # Plants vs Zombies like game prototype
 
-This project was developing as a test task. But can be used as a template for the tower defense game.
+_This project was developing as a test task. But can be used as a template for the tower defense game._
 
 ## Game mechanics
 * Placing friendly minions on map
@@ -24,9 +24,9 @@ This project was developing as a test task. But can be used as a template for th
 ### Mine
 * Exploses on contact with enemy. But need time to charge.
 
-##Enemies
+## Enemies
 ### Simple
-*Just walking left. And attack friendly minions on contact.
+* Just walking left. And attack friendly minions on contact.
 ### Fast
 Same as **Simple** enemy but faster.
 
