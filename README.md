@@ -1,6 +1,6 @@
-# Plants vs Zombies like game prototype
+# Plants vs Zombies game prototype
 
-_This project was developing as a test task. But can be used as a template for the tower defense game._
+_This project was developing as a test task. But can be used as a template for the tower defense game similar to PvZ._
 
 ## Game mechanics
 * Placing friendly minions on map
