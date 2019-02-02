@@ -58,7 +58,6 @@
     <Compile Include="Assets\Framework\Behaviours\Interfaces\IBehaviour.cs" />
     <Compile Include="Assets\Framework\Components\CollisionComponent.cs" />
     <Compile Include="Assets\Framework\Components\ComponentUpdate.cs" />
-    <Compile Include="Assets\Framework\Components\DataCamera.cs" />
     <Compile Include="Assets\Framework\Components\DataTransform.cs" />
     <Compile Include="Assets\Framework\Core\Core.cs" />
     <Compile Include="Assets\Framework\Enums\ObjectsId.cs" />

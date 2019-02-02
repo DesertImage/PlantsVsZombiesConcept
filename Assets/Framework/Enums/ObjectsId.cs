@@ -15,6 +15,7 @@
         PlantPanelView,
         SimplePeaBullet,
         SnowPeaBullet,
-        Zombie
+        Zombie,
+        SunMoney
     }
 }

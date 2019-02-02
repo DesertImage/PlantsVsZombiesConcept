@@ -8,7 +8,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e54ce6f2621f4229b4b6f93e314da5b9, type: 3}
+  m_Script: {fileID: 11500000, guid: 949ca96c181448dbbc48b07768fa8b7a, type: 3}
   m_Name: PotatoMine
   m_EditorClassIdentifier: 
   Name: potato_mine
@@ -17,3 +17,5 @@ MonoBehaviour:
   Sprite: {fileID: 21300000, guid: daef42dc2bee4964383ceca9aea4c9f1, type: 3}
   Id: 8
   CoolDown: 20
+  Damage: 1800
+  ChargeDuration: 14

@@ -22,32 +22,32 @@ MonoBehaviour:
     RegisterCount: 10
   - _name: Sunflower
     Id: 3
-    Prefab: {fileID: 1101200676039880, guid: 4838502f267ae1043825bec14d83b185, type: 2}
-    RegisterCount: 20
+    Prefab: {fileID: 1474215026408316, guid: c6a81193c629a86409668acdaf2c8a49, type: 2}
+    RegisterCount: 10
   - _name: Jalapeno
     Id: 4
     Prefab: {fileID: 1101200676039880, guid: 2643d7fa41a8ffd4189ec9aea5c29b20, type: 2}
-    RegisterCount: 20
+    RegisterCount: 10
   - _name: WallNut
     Id: 5
-    Prefab: {fileID: 1101200676039880, guid: 2643d7fa41a8ffd4189ec9aea5c29b20, type: 2}
-    RegisterCount: 20
-  - _name: SnowPea
+    Prefab: {fileID: 1755680323136834, guid: 6c481e1af72d56a43bb684eacdbdbd32, type: 2}
+    RegisterCount: 10
+  - _name: SnowPeasShooter
     Id: 6
-    Prefab: {fileID: 1101200676039880, guid: 2643d7fa41a8ffd4189ec9aea5c29b20, type: 2}
-    RegisterCount: 20
+    Prefab: {fileID: 1826321828440220, guid: 97bdf997b7ef9534098d347fdb3207b1, type: 2}
+    RegisterCount: 10
   - _name: Chomper
     Id: 7
     Prefab: {fileID: 1101200676039880, guid: 2643d7fa41a8ffd4189ec9aea5c29b20, type: 2}
-    RegisterCount: 20
+    RegisterCount: 10
   - _name: PotatoMine
     Id: 8
-    Prefab: {fileID: 1101200676039880, guid: 2643d7fa41a8ffd4189ec9aea5c29b20, type: 2}
+    Prefab: {fileID: 1547492367378896, guid: 9983af12c8b705d41af8d497ccb21989, type: 2}
     RegisterCount: 20
   - _name: Repeater
     Id: 9
     Prefab: {fileID: 1101200676039880, guid: 2643d7fa41a8ffd4189ec9aea5c29b20, type: 2}
-    RegisterCount: 20
+    RegisterCount: 5
   - _name: PlantPanelView
     Id: 10
     Prefab: {fileID: 1198796313833478, guid: 08e72ea64a139b24e800881cf83379e6, type: 2}
@@ -59,4 +59,12 @@ MonoBehaviour:
   - _name: Zombie
     Id: 13
     Prefab: {fileID: 1797754375557198, guid: c46d3a089cf65564a9f1f1a368cec1c2, type: 2}
+    RegisterCount: 20
+  - _name: SunMoney
+    Id: 14
+    Prefab: {fileID: 1157888749063750, guid: 593a0937faf79d74e9ecaa9d8d5ce215, type: 2}
+    RegisterCount: 20
+  - _name: SnowBullet
+    Id: 12
+    Prefab: {fileID: 1837828377748436, guid: 5fdeebc6fa8a8c34a801c3261505ac87, type: 2}
     RegisterCount: 20
