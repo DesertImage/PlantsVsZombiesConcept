@@ -10,13 +10,13 @@ This project was developing as a test task. But can be used as a template for th
 
 ##Friendly minions
 ### Shooter
-* Shooting with delay. Bullets causing damage to enemies.
+* Shoots with delay. Bullets causing damage to enemies.
 
 ### Shooter - slow downer
-* Has special ammo that slow down enemies on collision
+* Has special ammo that slow down enemies on collision.
 
 ### Energy-producer
-* Produce energy with delay. You can collect in on tap.
+* Produces energy with delay. You can collect in on tap.
 
 ### Defender
 * Has more health than other minions. Slow down enemies.
@@ -28,7 +28,7 @@ This project was developing as a test task. But can be used as a template for th
 ### Simple
 *Just walking left. And attack friendly minions on contact.
 ### Fast
-Same as **Simple** enemy but faster
+Same as **Simple** enemy but faster.
 
 #Scenes
 *Menu (Main menu, Settings)
